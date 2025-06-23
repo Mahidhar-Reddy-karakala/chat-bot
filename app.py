@@ -201,7 +201,7 @@ Keep the analysis concise, actionable, and format your response in Markdown."""
 
 # API Key
 ALPHA_VANTAGE_API_KEY = os.getenv("AlphaVantage_API_KEY", "29X9YHVU0IAY0KCT")
-
+print(ALPHA_VANTAGE_API_KEY)
 # MongoDB setup
 client = MongoClient("mongodb+srv://mahidharkarakala2405:a87UuNPxYkNwhiQN@cluster0.ghpwnzy.mongodb.net/")
 db = client['test']
